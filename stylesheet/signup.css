@@ -69,11 +69,7 @@ form{
 }
 .signup-text h1{
     font-size: 30px;
-    line-height: 50px;
-}
-.signup-text p{
-    font-weight: 500;
-
+    
 }
 input{
     height: 3rem;
@@ -107,10 +103,11 @@ input{
 }
 .btn2{
     height: 3rem;
-    width: 20rem;
+    width: 30rem;
     border-radius: 10px;
     border: 0;
     background-color: rgb(205, 205, 205);
+    font-size: 18px;
 
 }
 .btn2:hover{
@@ -130,7 +127,7 @@ box-shadow: 2px 2px 9px -1px rgba(0,0,0,0.33);
     text-align: center;
 }
 .btn{
-    height: 10rem;
+    height: 7rem;
     width: 30rem;
     /* background-color: aqua; */
     display: flex;
@@ -148,13 +145,17 @@ box-shadow: 2px 2px 9px -1px rgba(0,0,0,0.33);
     color: black;
 
 }
-.active, button:hover{
+ button:hover{
     background-color: #007CFF;
     color: white;
     -webkit-box-shadow: 2px 2px 9px -1px rgba(0,0,0,0.33);
 -moz-box-shadow: 2px 2px 9px -1px rgba(0,0,0,0.33);
 box-shadow: 2px 2px 9px -1px rgba(0,0,0,0.33);
 
+}
+.btn button a{
+    text-decoration: none;
+    color: black;
 }
 
 @media (max-width: 412px) {

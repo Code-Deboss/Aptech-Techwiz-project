@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.6s;
+    font-weight: 600;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.logo1{
+    height: 5rem;
+    width: 10rem;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    margin-right: 28rem;
+
+}
+section{
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#sec1{
+    background-image: url(/Images/5445590.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.intro1{
+    height: 5rem;
+    width: 30rem;
+    /* background-color: #7969FD; */
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 17rem;
+    letter-spacing: 3px
+}
+form{
+    height: 100vh;
+    width: 45rem;
+    display: flex;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    line-height: 2rem;
+}
+.signup-text1{
+    text-align: center;
+}
+.signup-text1 h1{
+    font-size: 30px;
+    line-height: 50px;
+}
+.signup-text1 p{
+    /* font-weight: 500; */
+    letter-spacing: 5px;
+
+}
+input{
+    height: 3rem;
+    width: 30rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 5px;
+    font-size: 17px;
+    
+}
+.gender{
+    width: 20rem;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.gender input{
+    height: 1rem;
+    width: 10rem;
+}
+.email1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.email1 label{
+    padding-right: 26rem;
+    line-height: 40px;
+}
+
+.password1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.password1 label{
+    padding-right: 25rem;
+}
+.classroom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 3rem;
+    width: 30rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 5px;
+    font-size: 17px;    
+}
+.class label{
+    padding-right: 26rem;
+    line-height: 40px;
+}
+.name1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.name1 label{
+    padding-right: 25rem;
+    line-height: 40px;
+}
+.terms-and-conditions p{
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 20px;
+    text-align: center;
+}
+.btn3{
+    height: 3rem;
+    width: 30rem;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(205, 205, 205);
+    font-size: 18px;
+
+}
+.btn3:hover{
+    cursor: pointer;
+    background-color: #3B2A94;
+    color: white;
+    transition: 0.3s ease-in;
+    -webkit-box-shadow: 2px 2px 9px -1px rgba(0,0,0,0.33);
+-moz-box-shadow: 2px 2px 9px -1px rgba(0,0,0,0.33);
+box-shadow: 2px 2px 9px -1px rgba(0,0,0,0.33);
+
+}
