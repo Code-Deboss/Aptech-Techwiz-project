@@ -19,19 +19,22 @@
         </div>
     </section>
     <section>
-        <form action="">
+        <form action="" id="form">
             <div class="signup-text1">
-                <h1>Sign In</h1>
+                <h1>Sign Up</h1>
                 <p>As a teacher</p>
             </div>
             <div class="name1">
                 <label for="">First name</label>
-                <input type="text">
+                <input type="text" id="firstname">
+                <div class="error"></div>
             </div>
             <div class="name1">
                 <label for="">Last name</label>
-                <input type="text">
+                <input type="text" id="lastname">
+                <div class="error"></div>
             </div>
+        
             <div class="gender">
                 <label for="">Male</label>
                 <input type="radio" name="Male" id="" class="sex">
@@ -42,7 +45,8 @@
             </div>
             <div class="email1">
                 <label for="Email">Email</label>
-                <input type="text" >
+                <input type="text" id="email">
+                <div class="error"></div>
             </div>
             <div class="class">
                 <label for="">Class</label>
@@ -57,17 +61,16 @@
             </div>
             <div class="password1">
                 <label for="Password">Password</label>
-                <input type="password" >
+                <input type="password" id="password">
+                <div class="error"></div>
             </div>  
-            <button class="btn3">
+            <button class="btn3" type="submit">
                 SIGN IN
             </button>
 
-            <div class="terms-and-conditions">
-                <p>By continuing, you agree to accept our <br> Privacy Policy & Terms of Service</p>
-            </div>
+           
         </form>
     </section>
-    <script src="/script/signup.js"></script>
+    <script src="/script/teacher.js"></script>
 </body>
 </html>

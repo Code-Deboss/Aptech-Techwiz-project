@@ -1,4 +1,6 @@
-
+const form = document.getElementById('form');
+const firstname = document.getElementById('firstname');
+const lastname = document.getElementById('lastname');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 
@@ -32,9 +34,20 @@ const isValidEmail = email => {
 }
 
 const validateInputs = () => {
+    const firstnameValue = firstname.value.trim();
+    const lastnameValue = lastname.value.trim();
     const emailValue = email.value.trim();
     const passwordValue = password.value.trim();
-
+    if(firstnameValue === '') {
+        setError(firstname, 'Please input your name');
+    } else {
+        setSuccess(firstname);
+    }
+    if(lastnameValue === '') {
+        setError(lastname, 'Please input your name');
+    } else {
+        setSuccess(lastname);
+    }
 
     if(emailValue === '') {
         setError(email, 'Email is required');
@@ -54,5 +67,4 @@ const validateInputs = () => {
      else {
         setSuccess(password);
     }
-
 };

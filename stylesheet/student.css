@@ -7,21 +7,17 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: 0.6s;
     font-weight: 600;
-    
-    /* font-family: 'Dancing Script', cursive; */
-/* font-family: 'Outfit', sans-serif; */
-/* font-family: 'Rubik Dirt', cursive; */
-}
-.error{
-    color: red;
 }
 body{
-    height: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     /* overflow: hidden; */
+}
+.error{
+    color: red;
 }
 .logo1{
     height: 5rem;
@@ -32,7 +28,7 @@ body{
     justify-content: center;
     font-size: 30px;
     color: black;
-    margin-right: 30rem;
+    margin-right: 28rem;
 
 }
 section{
@@ -45,7 +41,7 @@ section{
     flex-direction: column;
 }
 #sec1{
-    background-image: url(/Images/8600.jpg);
+    background-image: url(/Images/5836.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -65,8 +61,8 @@ section{
     letter-spacing: 3px
 }
 form{
-    height: max-content;
-    width: 30rem;
+    height: 100vh;
+    width: 45rem;
     display: flex;
     /* background-color: blue; */
     align-items: center;
@@ -103,11 +99,10 @@ input{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    /* background-color: #3B2A94; */
 }
 .gender input{
     height: 1rem;
-    width: 20rem;
+    width: 10rem;
 }
 .email1{
     display: flex;
@@ -143,7 +138,7 @@ input{
     font-size: 17px;    
 }
 .class label{
-    padding-right: 25rem;
+    padding-right: 26rem;
     line-height: 40px;
 }
 .name1{
@@ -153,6 +148,16 @@ input{
     flex-direction: column;
 }
 .name1 label{
+    padding-right: 25rem;
+    line-height: 40px;
+}
+.id{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.id label{
     padding-right: 25rem;
     line-height: 40px;
 }
@@ -169,6 +174,7 @@ input{
     border: 0;
     background-color: rgb(205, 205, 205);
     font-size: 18px;
+    line-height: 20px;
 
 }
 .btn3:hover{
